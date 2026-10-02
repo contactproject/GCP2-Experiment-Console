@@ -1,0 +1,7 @@
+GitHub upload package for Contact Project — GCP2 Experiment Console v0.4.2
+
+Your GitHub repository already contains the MIT LICENSE, so this package intentionally
+does not include another LICENSE file.
+
+Upload everything in this folder to the repository root. Keep the docs/ folder intact.
+After upload, README.md will automatically become the repository front page.
