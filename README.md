@@ -4,6 +4,8 @@
 
 A Chrome Manifest V3 extension for monitoring the public GCP2 Live Data feed, recording node-level Device Coherence alongside Global Network Variance, and marking prospective experiment windows with timestamped START / EVENT / END annotations.
 
+![Contact Project GCP2 Experiment Console v0.4.2](docs/images/gcp2-experiment-console-v0.4.2.jpg)
+
 > **Status:** experimental research tool.  
 > **Scope:** this extension records GCP2-derived live statistics. It does **not** expose the raw bitstream from the physical RNG channels.
 
