@@ -5,7 +5,7 @@
   const DB_VERSION = 1;
   const STORE_SAMPLES = 'samples';
   const STORE_MARKERS = 'markers';
-  const PANEL_ID = 'cp-gcp2-console-v4-1';
+  const PANEL_ID = 'cp-gcp2-console-v0-4-2';
   const NODE_KEY = 'cp_gcp2_selected_node';
   const NOTE_PREFIX = 'cp_gcp2_intention_note_';
   const POLL_MS = 35000;
@@ -832,10 +832,10 @@
     await captureNow('console-start');
     pollTimer=setInterval(()=>captureNow('scheduled-poll'),POLL_MS);
     window.__cpGcp2Runtime = {
-      version:'4.1',
+      version:'0.4.2',
       stop:()=>{ try{clearInterval(uiTimer)}catch(e){} try{clearInterval(pollTimer)}catch(e){} }
     };
   }
 
-  init().catch(e => { console.error(e); alert(`GCP2 Console v4.1 error: ${e.message || e}`); });
+  init().catch(e => { console.error(e); alert(`GCP2 Console v0.4.2 error: ${e.message || e}`); });
 })();

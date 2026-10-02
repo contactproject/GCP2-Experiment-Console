@@ -2,7 +2,7 @@
   "manifest_version": 3,
   "name": "Contact Project \u2014 GCP2 Experiment Console",
   "version": "0.4.2",
-  "description": "Wide multi-node GCP2 experiment console with live polling, dual-scale chart, colored coherence-level indicator, markers, notes, and database backup.",
+  "description": "Chrome extension for live GCP2 node monitoring, experiment annotation, local data capture, and reproducible QRNG/consciousness research.",
   "permissions": [
     "activeTab",
     "scripting"
